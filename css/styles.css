@@ -11,7 +11,6 @@ body {
   margin: 0 auto;
 }
 .section {
-  padding-top: 120px;
   padding-bottom: 120px;
 }
 :root {
@@ -22,19 +21,24 @@ body {
   --ocean: #404bbf;
   --cloud: #f4f4fd;
 }
+.header {
+  border-bottom: 1px solid #e7e9fc
+}
 .hero {
+  padding: 188px 0;
   background-color: #2e2f42;
   flex-shrink: 0;
 }
+.section2 {
+  padding: 120px 0;
+}
 .sect2 {
-  flex-shrink: 0;
-
+  display: flex;
+  gap: 24px;
 }
 .sect2-item {
-  width: 264px;
-  display: block;
-  justify-content: center;
-flex-shrink: 0;
+  width: calc((100% - 72px) / 4); 
+
 }
 .heroh {
   font-size: 56px;
@@ -47,6 +51,7 @@ flex-shrink: 0;
   width: 496px;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
 
 }
 .captionst {
@@ -55,6 +60,8 @@ flex-shrink: 0;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navyblue, #2e2f42);
+  margin-bottom: 8px;
+  text-align: center;
 }
 .captions {
   font-size: 36px;
@@ -65,9 +72,34 @@ flex-shrink: 0;
   color: var(--navyblue, #2e2f42);
   text-align: center;
   padding-bottom: 76px;
+  margin-bottom: 72px;
+}
+.wedoing {
+  display: flex;
+  gap: 24px;
+}
+.wedli {
+  width: calc((100% - 48px) / 3);
+}
+.sections {
+  background: var(--cloud, #F4F4FD);
+  padding: 120px 0;
 }
 .uls {
   background-color: #ffffff;
+  display: flex;
+  gap: 24px;
+}
+.team-card {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px; 
+}
+.team-bio {
+  padding: 32px 0;
+
+}
+img {
+  display: block;
 }
 a {
   text-decoration: none;
@@ -87,14 +119,15 @@ ul {
 .header .nav {
   justify-content: space-between;
   display: flex;
-  padding-top: 24px;
+  padding: 24px 0;
   align-items: center;
   flex-shrink: 0;
+  gap: 40px
 }
 .address .list {
   display: flex;
   padding-top: 24px;
-  padding-left: 347px;
+  padding-left: 280px;
   align-items: flex-start;
   gap: 40px;
 }
@@ -109,6 +142,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .studio {
   color: #f4f4fd;
@@ -148,12 +182,14 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
-margin-left: 479px;
-margin-right: 479px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none; 
+  background-color: #4d5ae5; 
+  border-radius: 4px;
+  cursor: pointer;
+margin-left: 467px;
 }
 .btnh:hover,
 .btnh:focus {
@@ -208,13 +244,6 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
   flex-direction: row;
   gap: 24px;
 }
-.team-card {
-  width: calc((100% - 72px) / 4);
-  background-color: #ffffff;
-}
-.team-section {
-  background-color: #F4F4FD;
-}
 .subjectp {
   font-weight: 500;
   font-size: 20px;
@@ -227,6 +256,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate, #434455);
+  text-align: center;
 }
 .logof {
   color: var(--iris, #4d5ae5);
@@ -235,12 +265,8 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  display: inline-flex;
-height: 24px;
-align-items: center;
-flex-shrink: 0;
-padding-top: 100px;
-padding-left: 156px;
+display: inline-block;
+margin-bottom: 16px;
 }
 .studiof {
   color: #f4f4fd;
@@ -249,17 +275,11 @@ padding-left: 156px;
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-  padding-left: 156px;
-padding-bottom: 100px;
-flex-shrink: 0;
+  max-width: 264px;
 }
 .footer {
-justify-content: center;
-  flex-shrink: 0;
   background-color: #2e2f42;
-  width: 1148px;
-height: 312px;
-flex-shrink: 0;
+  padding: 100px 0 
 }
 .visually-hidden {
   position: absolute;
