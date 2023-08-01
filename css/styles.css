@@ -120,13 +120,9 @@ ul {
   display: flex;
   gap: 40px;
 }
-.header .nav {
-  justify-content: space-between;
+.nav {
   display: flex;
-  padding: 24px 0;
   align-items: center;
-  flex-shrink: 0;
-  gap: 40px
 }
 .address .list {
   display: flex;
