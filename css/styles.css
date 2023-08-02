@@ -36,7 +36,7 @@ body {
   display: flex;
   gap: 24px;
 }
-.item2 {
+.itemtwo {
   width: calc((100% - 72px) / 4);
   gap: 24px;
 }
