@@ -35,6 +35,8 @@ body {
 .items-studio {
   display: flex;
   gap: 24px;
+  padding-left: 0;
+  margin: 0 auto;
 }
 .itemtwo {
   width: calc((100% - 72px) / 4);
@@ -93,6 +95,8 @@ body {
   background-color: #ffffff;
   display: flex;
   gap: 24px;
+  padding-left: 0;
+  margin: 0 auto;
 }
 .team-card {
   width: calc((100% - 72px) / 4);
@@ -239,6 +243,8 @@ margin-left: 467px;
   flex-wrap: wrap; 
   column-gap: 24px;
   row-gap: 48px;
+  padding-left: 0;
+  margin: 0 auto;
 }
 .textrow {
   width: calc((100% - 48px) / 3);
