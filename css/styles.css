@@ -29,10 +29,10 @@ body {
   background-color: #2e2f42;
   flex-shrink: 0;
 }
-.section2 {
+.section-two {
   padding: 120px 0;
 }
-.lead2 {
+.lead-t {
   display: flex;
   gap: 24px;
 }
@@ -73,7 +73,7 @@ body {
   padding-bottom: 76px;
   margin-bottom: 72px;
 }
-.section3 {
+.section-three {
   padding-bottom: 120px;
 }
 .wedoing {
@@ -83,7 +83,7 @@ body {
 .wedli {
   width: calc((100% - 48px) / 3);
 }
-.section4 {
+.section-four {
   background: var(--cloud, #F4F4FD);
   padding: 120px 0;
 }
