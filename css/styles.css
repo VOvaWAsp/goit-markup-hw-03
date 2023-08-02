@@ -32,12 +32,13 @@ body {
 .section-two {
   padding: 120px 0;
 }
-.lead-t {
+.lead-two {
   display: flex;
   gap: 24px;
 }
 .item2 {
   width: calc((100% - 72px) / 4);
+  gap: 24px;
 }
 .heroh {
   font-size: 56px;
@@ -82,6 +83,7 @@ body {
 }
 .wedli {
   width: calc((100% - 48px) / 3);
+  gap: 24px;
 }
 .section-four {
   background: var(--cloud, #F4F4FD);
@@ -95,8 +97,7 @@ body {
 .team-card {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px; 
-  margin-right: 24px;
-  margin-right: 0;
+  gap: 24px; 
 }
 .team {
   padding: 32px 0;
@@ -233,6 +234,9 @@ margin-left: 467px;
   cursor: pointer;
   border: 1px solid transparent;
 }
+.butnl {
+  gap: 24px;
+}
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -241,8 +245,8 @@ margin-left: 467px;
 }
 .textrow {
   width: calc((100% - 48px) / 3); 
-  margin-right: 24px;
-  margin-bottom: 48px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .pimg {
   padding: 32px 16px;
@@ -273,6 +277,12 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navyblue, #2e2f42);
+  margin-bottom: 8px
+}
+.containerp {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .parp {
   font-size: 16px;
