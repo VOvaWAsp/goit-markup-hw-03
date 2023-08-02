@@ -29,15 +29,15 @@ body {
   background-color: #2e2f42;
   flex-shrink: 0;
 }
-.textst2 {
+.text2 {
   padding: 120px 0;
 }
-.listst2 {
+.list2 {
   display: flex;
   gap: 24px;
 }
-.sect2item {
-  flex-basis: calc((100% - 72px) / 4);
+.item2 {
+  width: calc((100% - 72px) / 4);
 }
 .heroh {
   font-size: 56px;
@@ -83,7 +83,7 @@ body {
 .wedli {
   width: calc((100% - 48px) / 3);
 }
-.sections {
+.wrap3 {
   background: var(--cloud, #F4F4FD);
   padding: 120px 0;
 }
