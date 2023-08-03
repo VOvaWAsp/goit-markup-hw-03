@@ -48,7 +48,7 @@ body {
   line-height: 1.07;
   font-weight: 700;
   padding-top: 188px;
-  padding-bottom: 48px;
+  padding-bottom: 292px;
   margin: 0 auto;
   width: 496px;
   letter-spacing: 0.02em;
@@ -144,6 +144,7 @@ ul {
 }
 .studio-h {
   color: #2e2f42;
+  font-family: 'Raleway', sans-serif;
 }
 .logo {
   color: var(--iris, #4d5ae5);
@@ -154,9 +155,12 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  padding-bottom: 24px;
+  color: var(--navyblue, #2E2F42);
 }
 .studio {
   color: #f4f4fd;
+  font-family: 'Raleway', sans-serif;
 }
 .nav {
   color: #2e2f42;
@@ -164,6 +168,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 24px;
 }
 .nav-link {
   color: #2e2f42;
@@ -181,6 +186,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate, #434455);
+  padding-bottom: 24px;
 }
 .contact-link:hover,
 .contact-link:focus {
