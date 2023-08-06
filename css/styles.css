@@ -27,7 +27,6 @@ body {
 .hero {
   padding: 188px 0;
   background-color: #2e2f42;
-  width: 1515px;
   flex-shrink: 0;
 }
 .section-two {
@@ -96,6 +95,7 @@ body {
 .uls {
   background-color: #ffffff;
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
   padding-left: 0;
   margin: 0 auto;
@@ -103,7 +103,6 @@ body {
 .team-card {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px; 
-  gap: 24px; 
 }
 .team {
   padding: 32px 0;
@@ -253,6 +252,7 @@ ul {
   column-gap: 24px;
   row-gap: 48px;
   padding-left: 0;
+  padding-right: 0;
   margin: 0 auto;
 }
 .textrow {
@@ -297,7 +297,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate, #434455);
-  text-align: center;
+  text-align: flex-start;
 }
 .logof {
   color: var(--iris, #4d5ae5);
